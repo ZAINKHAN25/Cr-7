@@ -16,6 +16,7 @@
     background-color: #67839F !important;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .logoOfNavbar {
