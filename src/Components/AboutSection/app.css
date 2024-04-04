@@ -1,0 +1,18 @@
+.AboutSection{
+    color: white;
+    margin-top: 20vh !important;
+}
+
+.AboutSection h2{
+    font-family: "DM Serif Text";
+    font-weight: normal;
+    font-size: 50px;
+    margin-left: 25px;
+}
+
+.AboutSection span{
+    margin-left: 50px;
+    font-family: "Jacques Francois";
+    font-size: 18px;
+    letter-spacing: 2px;
+}
