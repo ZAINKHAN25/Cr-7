@@ -1,0 +1,11 @@
+.ClubsSection {
+    width: 90vw;
+    margin: 20vh auto !important;
+}
+
+.ClubsSection h2{
+    font-family: "DM Serif Text";
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
