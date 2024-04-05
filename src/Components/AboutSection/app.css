@@ -8,11 +8,10 @@
     font-family: "DM Serif Text";
     font-weight: normal;
     font-size: 50px;
-    margin-left: 25px;
 }
 
 .spanOfAbout{
-    margin-left: 50px;
+    margin-left: 150px;
     font-family: "Jacques Francois";
     font-size: 18px;
     letter-spacing: 2px;
@@ -26,7 +25,8 @@
 }
 
 .FirstSubLineOfSA{
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 19px;
     flex: 1;
 }
 
