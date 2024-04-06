@@ -3,9 +3,36 @@
     margin: 20vh auto !important;
 }
 
-.ClubsSection h2{
+.h2OfClubsSection {
     font-family: "DM Serif Text";
     font-weight: normal;
     font-size: 50px;
     color: white;
+}
+
+.currentTeamsLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.currentTeamsDiv {
+    width: 450px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: black !important;
+}
+
+.currentTeamsDiv img {
+    width: 200px;
+}
+
+.headingOfCurrentTeams {
+    font-weight: bold;
 }
