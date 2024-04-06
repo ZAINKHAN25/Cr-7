@@ -5,7 +5,7 @@ import { currentTeams, previosTeams } from "./Clubs.js"
 
 function ClubsSection() {
     return (
-        <div className='ClubsSection'>
+        <div id='clubs' className='ClubsSection'>
             <h2 className='h2OfClubsSection'>Clubs:</h2>
 
             {/* Current Teams */}
@@ -17,7 +17,7 @@ function ClubsSection() {
                                 <div className='currentTeamsDiv m-5 px-2 py-4' key={i}>
                                     <img className='mb-3' src={x?.imgLogo} alt="" />
                                     <h2 className='headingOfCurrentTeams'>{x?.teamName}</h2>
-                                    <p className='mt-3 fs-4'>{x?.dateOfTeam}</p>
+                                    <p className='mt-3 fs-5'>{x?.dateOfTeam}</p>
                                 </div>
                             )
                         }
@@ -31,10 +31,10 @@ function ClubsSection() {
                     previosTeams.map(
                         (x, i) => {
                             return (
-                                <div className='previosTeamsDiv mx-3 my-3 px-2 py-4' key={i}>
+                                <div className='previosTeamsDiv mx-3 my-3 py-5 px-4' key={i}>
                                     <img src={x?.imgLogo} alt="" />
-                                    <h2 className='headingOfPreviosTeams'>{x?.teamName}</h2>
-                                    <p className='mt-3 fs-4'>{x?.dateOfTeam}</p>
+                                    <h3 className='headingOfPreviosTeams mt-2'>{x?.teamName}</h3>
+                                    <p className='mt-3 fs-5'>{x?.dateOfTeam}</p>
                                 </div>
                             )
                         }

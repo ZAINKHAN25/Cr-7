@@ -44,7 +44,7 @@
 }
 
 .previosTeamsDiv {
-    width: 400px;
+    width: 350px;
     height: 450px;
 }
 
@@ -57,5 +57,6 @@
 
 .headingOfPreviosTeams,
 .headingOfCurrentTeams {
+    text-align: center;
     font-weight: bold;
 }

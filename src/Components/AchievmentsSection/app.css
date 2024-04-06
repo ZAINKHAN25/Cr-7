@@ -1,0 +1,11 @@
+.AchievmentSection {
+    width: 90vw;
+    margin: 20vh auto !important;
+}
+
+.h2OfAchievmentSection {
+    font-family: "DM Serif Text";
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}

@@ -7,7 +7,7 @@ function Navbar() {
       <div className="container-fluid px-5">
         <a className="logoOfNavbar" href="#">Cristiano-Ronaldo</a>
         <div className="BtnOfToogleNavbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </div>
         <div className="collapse navbar-collapse navbarLis" id="navbarNavAltMarkup">
           <div className="navbar-nav">
