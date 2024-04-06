@@ -10,29 +10,52 @@
     color: white;
 }
 
-.currentTeamsLine {
+.currentTeamsLine,
+.previousTeamsLine {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
 }
 
-.currentTeamsDiv {
-    width: 450px;
+
+.currentTeamsDiv,
+.previosTeamsDiv {
     background-color: white;
-    border-radius: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 30%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 500px;
     color: black !important;
+    scale: 1;
+    cursor: pointer;
+    transition: all .5s ease-out;
 }
 
-.currentTeamsDiv img {
+.currentTeamsDiv:hover , .previosTeamsDiv:hover{
+    scale: 1.08;
+}
+
+.currentTeamsDiv {
+    width: 450px;
+    height: 500px;
+}
+
+.previosTeamsDiv {
+    width: 400px;
+    height: 450px;
+}
+
+.currentTeamsDiv img,
+.previosTeamsDiv img {
     width: 200px;
+    height: 300px;
+    object-fit: contain;
 }
 
+.headingOfPreviosTeams,
 .headingOfCurrentTeams {
     font-weight: bold;
 }
