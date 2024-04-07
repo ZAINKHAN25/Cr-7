@@ -12,7 +12,6 @@ function AchievmentSection() {
         {
           achievements.map(
             (x, i) => {
-              console.log(x);
               return (
                 <div className='singleAchiement m-5 px-2 py-4' key={i}>
                   <img className='mb-3' src={x?.imgOfAchievements} alt="" />

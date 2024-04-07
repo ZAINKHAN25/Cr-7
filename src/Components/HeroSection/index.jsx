@@ -4,7 +4,7 @@ import "./app.css"
 function HeroSection() {
 
     return (
-        <div className='mb-5'>
+        <div className='mb-5 mt-1'>
             <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -14,7 +14,7 @@ function HeroSection() {
                         <img src="https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0320%2Fr344016_1296x729_16%2D9.jpg" className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://a.espncdn.com/photo/2024/0304/r1300051_1296x729_16-9.jpg" className="d-block w-100" alt="..." />
+                        <img src="https://c4.wallpaperflare.com/wallpaper/139/444/1000/cristiano-ronaldo-wallpaper-preview.jpg" className="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

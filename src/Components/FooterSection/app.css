@@ -1,0 +1,28 @@
+.FooterSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232d37;
+    color: white;
+}
+
+.FooterSection span{
+    font-size: 18px;
+}
+
+.iconsDivOfFooter a{
+    padding: 5px 10px;
+    height: 50px;
+    color: white;
+    margin: 0 10px;
+    font-size: 27px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: all .5s ease-in-out;
+}
+
+.iconsDivOfFooter a:hover{
+    background-color: white;
+    color: #232d37;
+}

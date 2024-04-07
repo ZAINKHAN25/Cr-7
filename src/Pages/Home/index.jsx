@@ -7,6 +7,7 @@ import AboutSection from "../../Components/AboutSection/index.jsx";
 import ClubsSection from "../../Components/ClubsSection/index.jsx";
 import AchievmentsSection from "../../Components/AchievmentsSection/index.jsx";
 import PictureSection from "../../Components/PictureSection/index.jsx";
+import FooterSection from "../../Components/FooterSection/index.jsx";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <ClubsSection />
       <AchievmentsSection/>
       <PictureSection />
+      <FooterSection />
     </>
   )
 }
