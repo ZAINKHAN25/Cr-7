@@ -1,3 +1,7 @@
+*{
+    word-wrap: break-word;
+}
+
 body{
     background-color: #101820;
 }
@@ -20,3 +24,4 @@ body{
     background-color: white;
     color: #101820;
 }
+

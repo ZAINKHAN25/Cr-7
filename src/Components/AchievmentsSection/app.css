@@ -19,6 +19,8 @@
 
 .singleAchiement {
     width: 300px;
+    text-align: center;
+    flex: 1;
     height: 450px;
     background-color: white;
     border-radius: 10px;
@@ -45,6 +47,5 @@
 }
 
 .headingOfAchievements {
-    text-align: center;
     font-weight: bold;
 }

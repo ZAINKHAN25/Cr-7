@@ -5,7 +5,7 @@ function HeroSection() {
 
     return (
         <div className='mb-5 mt-1'>
-            <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src="https://e6.365dm.de/22/09/1600x900/skysport_de-ronaldo-portugal_5906577.jpg?20220921112110" className="d-block w-100" alt="..." />

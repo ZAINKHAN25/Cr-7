@@ -48,3 +48,13 @@
         display: flex !important;
     }
 }
+
+@media (max-width: 400px) {
+    .navbar{
+        padding: 10px 0;
+    }
+
+    .logoOfNavbar{
+        font-size: 18px;
+    }
+}

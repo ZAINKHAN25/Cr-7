@@ -14,7 +14,7 @@ function ClubsSection() {
                     currentTeams.map(
                         (x, i) => {
                             return (
-                                <div className='currentTeamsDiv m-5 px-2 py-4' key={i}>
+                                <div className='currentTeamsDiv my-5 mx-3 px-2 py-4' key={i}>
                                     <img className='mb-3' src={x?.imgLogo} alt="" />
                                     <h2 className='headingOfCurrentTeams'>{x?.teamName}</h2>
                                     <p className='mt-3 fs-5'>{x?.dateOfTeam}</p>

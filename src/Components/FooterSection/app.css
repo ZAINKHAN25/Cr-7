@@ -3,11 +3,16 @@
     justify-content: space-between;
     align-items: center;
     background-color: #232d37;
+    flex-wrap: wrap;
     color: white;
 }
 
 .FooterSection span{
     font-size: 18px;
+}
+
+.iconsDivOfFooter{
+    margin: 15px 0;
 }
 
 .iconsDivOfFooter a{
