@@ -33,3 +33,17 @@
 .SecondSubLineOfSA{
     flex: 5;
 }
+
+@media (max-width: 670px) {
+    .subLineOfSubAbout{
+        margin: 0;
+    }
+
+    .subLineOfSubAbout{
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin: 15px 0;
+    }
+
+}
