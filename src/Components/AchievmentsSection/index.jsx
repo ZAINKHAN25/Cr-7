@@ -16,7 +16,7 @@ function AchievmentSection() {
               return (
                 <div className='singleAchiement m-5 px-2 py-4' key={i}>
                   <img className='mb-3' src={x?.imgOfAchievements} alt="" />
-                  <h2 className='headingOfAchievements'>{x?.achievementName}</h2>
+                  <h3 className='headingOfAchievements'>{x?.achievementName}</h3>
                   <p className='mt-3 fs-5'>{x?.quantityOfAchievments}</p>
                 </div>
               )
@@ -24,7 +24,7 @@ function AchievmentSection() {
           )
         }
       </div>
-        <a className='showMoreBtn px-5 py-2' target='blank' href="https://en.wikipedia.org/wiki/List_of_career_achievements_by_Cristiano_Ronaldo">Show More</a>
+        <a className='showMoreBtn px-5 py-2 mt-5' target='blank' href="https://en.wikipedia.org/wiki/List_of_career_achievements_by_Cristiano_Ronaldo">Show More</a>
     </div>
   )
 }

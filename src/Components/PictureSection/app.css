@@ -1,0 +1,32 @@
+.PictureSection {
+    width: 90vw;
+    margin: 20vh auto !important;
+}
+
+.h2OfPictureSection {
+    font-family: "DM Serif Text";
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
+
+.picturesDiv {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgOfRonaldo {
+    width: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 15%);
+    scale: 1;
+    transition: all .5s ease-in-out;
+}
+
+.imgOfRonaldo:hover{
+    scale: 1.08;
+}

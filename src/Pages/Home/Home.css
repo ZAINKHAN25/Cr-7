@@ -1,3 +1,22 @@
 body{
     background-color: #101820;
 }
+
+.showMoreBtn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 auto;
+    font-weight: bold;
+    text-decoration: none;
+    width: max-content;
+    font-size: large;
+    transition: all .5s ease-in-out;
+}
+
+.showMoreBtn:hover {
+    background-color: white;
+    color: #101820;
+}
