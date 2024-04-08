@@ -14,4 +14,4 @@ function FooterSection() {
     )
 }
 
-export default FooterSection
+export default FooterSection;

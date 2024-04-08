@@ -31,3 +31,9 @@
     background-color: white;
     color: #232d37;
 }
+
+@media (max-width: 500px) {
+    .FooterSection {
+        justify-content: center;
+    }
+}
